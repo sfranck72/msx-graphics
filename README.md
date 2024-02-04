@@ -37,4 +37,30 @@ Revenir à l'état initial transparent :
 ```
 VDP(9)=VDP(9) AND &HDF
 ```
+BSAVE :
+```
+10 screen 5
+20 bload"name.pic",s
+30 bsave"name.sc5",0,&h769f,s
+```
+Header is like this:
+```
+ db #fe 	;ID byte
+ dw {VRAM begin address}
+ dW {VRAM end address}
+ dw {not used when loading to VRAM}
+```
+What goes to where depends of how you have set up the VDP... (See BASIC commands VDP, BASE, SCREEN and SET PAGE) When you boot your computer the default addresses in SCREEN 5 are:
+```
+0000-69FF   Bitmap
+ 7400-75FF   Sprite colours
+ 7600-767F   Sprite attribute table
+ 7680-769F   Palette (MSX-BASIC feature. Stored actually inside VDP)
+ 7800-7FFF   Sprite character patterns
+```
+The most interesting part is probably the bitmap... In screen 5 the screen is filled from left to right and up to down. Each nibble represents one color out of the 16-color palette. This means that the whole screen size in bytes is 128 * 212. Please note that in screen 5 you can use second parameter (0-3) of SET PAGE command to add (#8000) offset to BLOAD, VPOKE etc commands... This way you can access whole 128KB (#00000-#1FFFF) although BLOAD header and command parameters use only 16-bit addresses.
 
+
+> [!TIP]  
+> Pour tester plus facilement :  
+> [MSX Pen](https://msxpen.com/)
