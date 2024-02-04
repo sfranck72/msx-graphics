@@ -24,3 +24,16 @@ For MSX newcomers, the BASIC for loading image on MSX or emulator when files are
 20 BLOAD"A:AWAKE.SC5",S  
 30 COLOR=RESTORE  
 40 A$=INPUT$(1)  
+
+Avec 2 fichiers (SC5+PL5) :  
+
+--  
+10 SCREEN 5  
+20 COLOR ,,0  
+30 VDP(9)=VDP(9)OR&H20  
+40 BLOAD"matrix2.pl5",S  
+50 COLOR=RESTORE  
+60 BLOAD"matrix2.sc5",S  
+70 A$=INPUT$(1)  
+--  
+
