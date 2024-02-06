@@ -60,6 +60,23 @@ What goes to where depends of how you have set up the VDP... (See BASIC commands
 ```
 The most interesting part is probably the bitmap... In screen 5 the screen is filled from left to right and up to down. Each nibble represents one color out of the 16-color palette. This means that the whole screen size in bytes is 128 * 212. Please note that in screen 5 you can use second parameter (0-3) of SET PAGE command to add (#8000) offset to BLOAD, VPOKE etc commands... This way you can access whole 128KB (#00000-#1FFFF) although BLOAD header and command parameters use only 16-bit addresses.
 
+Modifier les CHR :
+```
+100 a=peek(5)*256+peek(4)  
+101 for e=0 to 2047  
+102 u=peek(a+e)  
+103 poke &hd000+e,u or u/2  
+104 next  
+200 poke &hf91f,(inp(&ha8)and48)/16  
+201 poke &hf920,0  
+202 poke &hf921,&hd0  
+203 screen 1 
+210 screen 2  
+220 OPEN "GRP:" FOR OUTPUT AS #1  
+230 print #1,"ceci est un TEST"  
+240 goto 240  
+```
+
 
 > [!TIP]  
 > Pour tester plus facilement :  
