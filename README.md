@@ -61,6 +61,14 @@ Ceci dépend de la configuration de votre VDP (consultez les commandes BASIC VDP
 ```
 La partie la plus intéressante est probablement le bitmap... En écran 5, l'écran est rempli de gauche à droite et de haut en bas. Chaque quartet représente une couleur de la palette de 16 couleurs. Cela signifie que la taille totale de l'écran en octets est de 128 * 212. Notez qu'en écran 5, vous pouvez utiliser le deuxième paramètre (0-3) de la commande SET PAGE pour ajouter un décalage (#8000) aux commandes BLOAD, VPOKE, etc. De cette façon, vous pouvez accéder à l'ensemble des 128 Ko (#00000-#1FFFF) bien que l'en-tête BLOAD et les paramètres de commande n'utilisent que des adresses 16 bits.
 
+Les données de pixels de SCREEN 5 proviennent de &H0000 .. &H69FF (= 27136 octets).  
+Les données de la palette proviennent de &H7680 .. &H769F (= 32 octets).  
+Le fichier .sc5 est essentiellement un fichier .bin  
+Ainsi, l'écart entre &H69FF .. &H7680 doit également y être stocké.  
+Cela totalise &H769F - &H0000 + 1 = 30368 octets.  
+Ajoutez votre en-tête .bin de 7 octets et cela équivaut à 30375 octets.  
+
+
 # Modifier les CHR :
 ```
 100 a=peek(5)*256+peek(4)  
