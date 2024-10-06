@@ -30,6 +30,14 @@ sources :
 [spidey.SC5](https://github.com/sfranck72/msx-graphics/blob/main/spidey.sc5)    
 
 ---  
+***RTYPE***   
+Pixelart of R-Type made with Aseprite.  
+Screen 5 / 256 x 212 / 16 colors  
+![rtype](https://github.com/sfranck72/msx-graphics/blob/main/rtype.png)  
+sources :  
+[rtype.SC5](https://github.com/sfranck72/msx-graphics/blob/main/rtype.sc5)    
+
+---  
 ***H.E.R.O***   
 Pixelart of MSX game made with Aseprite.  
 Screen 5 / 256 x 212 / 16 colors  
