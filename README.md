@@ -16,16 +16,16 @@ sources :
 ***PUB Canon V20***   
 Pixelart of a Canon v20 publicity made with Aseprite.  
 Screen 5 / 256 x 212 / 16 colors  
-![V20](https://github.com/sfranck72/msx-graphics/blob/main/v20.png)  
+![V20](https://github.com/sfranck72/msx-graphics/blob/ea07c58281d7b1e07610d603ed8b043845897971/v20.png)  
 sources :  
 [V20.SC5](https://github.com/sfranck72/msx-graphics/blob/main/v20.SC5)  
-[V20 pixelart.png](https://github.com/sfranck72/msx-graphics/blob/main/v20%20pixelart.png) Not a MSX format but a full pixelart publicity tribute.  
+[V20 pixelart.png](https://github.com/sfranck72/msx-graphics/blob/ea07c58281d7b1e07610d603ed8b043845897971/v20%20pixelart.png) Not a MSX format but a full pixelart publicity tribute.  
 
 ---  
 ***SPIDEY***   
 Adaptation after an Astronautcurve artwotk made with Aseprite.  
 Screen 5 / 256 x 212 / 16 colors  
-![Spidey](https://github.com/sfranck72/msx-graphics/blob/main/spidey.png)  
+![Spidey](https://github.com/sfranck72/msx-graphics/blob/aaae2ee258c2895f990e7e440a2847ba93119293/spidey.png)  
 sources :  
 [spidey.SC5](https://github.com/sfranck72/msx-graphics/blob/main/spidey.sc5)    
 
@@ -41,7 +41,7 @@ sources :
 ***H.E.R.O***   
 Pixelart of MSX game made with Aseprite.  
 Screen 5 / 256 x 212 / 16 colors  
-![hero](https://github.com/sfranck72/msx-graphics/blob/main/hero.png)  
+![hero](https://github.com/sfranck72/msx-graphics/blob/4855489ca4c859177ed440048a617d6f8468ec82/hero.png)  
 sources :  
 [hero.SC5](https://github.com/sfranck72/msx-graphics/blob/main/hero.sc5)    
 
