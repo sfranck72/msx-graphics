@@ -63,11 +63,27 @@ sources :
 
 ---  
 ***REDUX***   
-Pixelart of MSX game made with Graphsaurus.  
+Pixelart made with Graphsaurus.  
 Screen 5 / 256 x 212 / 16 colors  
 ![redux](https://github.com/sfranck72/msx-graphics/blob/0d92ebc01bec8358b4323f1d43712fa48ece5cae/redux.png)   
 sources :  
 [redux.SC5](https://github.com/sfranck72/msx-graphics/blob/0d92ebc01bec8358b4323f1d43712fa48ece5cae/redux.SC5)  
+
+---  
+***DR SLUMP***   
+Pixelart made with Aseprite.  
+Screen 5 / 256 x 212 / 16 colors  
+![slump](https://github.com/sfranck72/msx-graphics/blob/cd1455346bd7574efd07cb3160a8a7037d1d74e7/slump.png)   
+sources :  
+[slump.SC5](https://github.com/sfranck72/msx-graphics/blob/cd1455346bd7574efd07cb3160a8a7037d1d74e7/slump.SC5)  
+
+---  
+***PRINT***   
+Pixelart made with Aseprite.  
+Screen 5 / 256 x 212 / 16 colors  
+![print](https://github.com/sfranck72/msx-graphics/blob/main/print.png)  
+sources :  
+[print.SC5](https://github.com/sfranck72/msx-graphics/blob/main/print.SC5)
 
 
 
