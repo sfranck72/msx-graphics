@@ -61,6 +61,16 @@ Screen 5 / 256 x 212 / 16 colors
 sources :  
 [snatcher.SC5](https://github.com/sfranck72/msx-graphics/blob/main/snatcher.sc5)   
 
+---  
+***REDUX***   
+Pixelart of MSX game made with Graphsaurus.  
+Screen 5 / 256 x 212 / 16 colors  
+![redux](https://github.com/sfranck72/msx-graphics/blob/0d92ebc01bec8358b4323f1d43712fa48ece5cae/redux.png)   
+sources :  
+[redux.SC5](https://github.com/sfranck72/msx-graphics/blob/0d92ebc01bec8358b4323f1d43712fa48ece5cae/redux.SC5)  
+
+
+
 
 
 
