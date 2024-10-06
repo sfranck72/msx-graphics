@@ -44,3 +44,23 @@ Screen 5 / 256 x 212 / 16 colors
 ![hero](https://github.com/sfranck72/msx-graphics/blob/main/hero.png)  
 sources :  
 [hero.SC5](https://github.com/sfranck72/msx-graphics/blob/main/hero.sc5)    
+
+---  
+***STANDARD***   
+Pixelart of MSX game made with Aseprite.  
+Screen 5 / 256 x 212 / 16 colors  
+![standard](https://github.com/sfranck72/msx-graphics/blob/main/standard.png)  
+sources :  
+[standard.SC5](https://github.com/sfranck72/msx-graphics/blob/main/standard.sc5)   
+
+---  
+***SNATCHER***   
+Pixelart of MSX game made with Aseprite.  
+Screen 5 / 256 x 212 / 16 colors  
+![snatcher](https://github.com/sfranck72/msx-graphics/blob/main/snatcher.png)  
+sources :  
+[snatcher.SC5](https://github.com/sfranck72/msx-graphics/blob/main/snatcher.sc5)   
+
+
+
+
