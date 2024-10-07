@@ -85,7 +85,29 @@ Screen 5 / 256 x 212 / 16 colors
 sources :  
 [print.SC5](https://github.com/sfranck72/msx-graphics/blob/main/print.SC5)
 
+---  
+***THE AWAKENING***   
+Pixelart made with Aseprite (After the game design of Oniric Factor).  
+Screen 5 / 256 x 212 / 16 colors  
+![awake](https://github.com/sfranck72/msx-graphics/blob/main/awake.png)  
+sources :  
+[awake.SC5](https://github.com/sfranck72/msx-graphics/blob/main/awake.SC5)
 
+---  
+***COMPUTER***   
+Pixelart made with Aseprite (After a magazine advertising).  
+Screen 5 / 256 x 212 / 16 colors  
+![computer](https://github.com/sfranck72/msx-graphics/blob/main/computer.png)  
+sources :  
+[computer.SC5](https://github.com/sfranck72/msx-graphics/blob/main/computer.SC5)
+
+---  
+***ASCII***   
+Pixelart made with Aseprite (After a 1991 ASCII catalog).  
+Screen 5 / 256 x 212 / 16 colors  
+![ascjj](https://github.com/sfranck72/msx-graphics/blob/main/ascii.png)  
+sources :  
+[ascii.SC5](https://github.com/sfranck72/msx-graphics/blob/main/ascii.SC5)
 
 
 
